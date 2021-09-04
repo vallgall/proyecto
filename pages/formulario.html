@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Mi primer formulario</title>
+        <link rel="shortcut icon" href="D:\IMAGENES\bandeja-de-entrada.png">
+
+    </head>
+   
+
+    <body>
+        <form method="POST" action="http://pc.uv.es/cgi-bin/prueba.exe">
+            <b>Nombre:</b>
+            <input type="text" name="nombre" size="10" maxlength="25"><br>
+            <b>Primer apellido:</b>
+            <input type="text" name="apellido1" size="10" maxlength="25"><br>
+            <b>Segundo apellido:</b>
+            <input type="text" name="apellido2" size="10" maxlength="25"><br><br>
+            <b>Curso:</b><br>
+            PHP<input type="radio" name="curso" value="php" checked><br>
+            JAVA<input type="radio" name="curso" value="java" ><br>
+            PYTHON<input type="radio" name="curso" value="python" ><br>
+            CSS<input type="radio" name="curso" value="css" ><br><br>
+            <b>Idiomas que conoce:</b><br>
+            <input type="checkbox" name="idiomas" value="ingles">Inglés<br>
+            <input type="checkbox" name="idiomas" value="frances">Francés<br>
+            <input type="checkbox" name="idiomas" value="mandarin">Mandarin<br><br>
+            <b>Sexo:</b><br>
+            <input type="radio" name="sexo" value="masculino">Masculino<br>
+            <input type="radio" name="sexo" value="femenino">Femenino<br><br>
+            <b>Observaciones</b><br>
+            <textarea name="observaciones" rows="5" cols="50"></textarea><br><br>
+            <b>Ingrese el archivo:</b><input type="file" name="imagen"><br><br>
+            Nombre:<input type="text" name="nombre"><br>
+            Contraseña:<input type="password" name="clave"><br><br>
+            <b>Estudios</b>
+            <select name="Estudios">
+                <option value="primaria">Primaria</option>
+                <option value="secundaria">Secundaria</option>
+                <option value="pregrado">Pregrado</option>
+                <option value="postgrado">Postgrado</option>
+                <option value="maestria">Maestria</option>
+            </select><br><br>
+
+            <b>Pasatiempos</b><br>
+            <input type="checkbox" name="pasatiempos" value="peliculas">Mirar Peliculas<br>
+            <input type="checkbox" name="pasatiempos" value="leer">Leer<br>
+            <input type="checkbox" name="pasatiempos" value="musica">Escuchar Musica<br>
+            <input type="checkbox" name="pasatiempos" value="dibujar">Dibujar<br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+    </body>
+</html>
